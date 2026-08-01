@@ -16,7 +16,7 @@
     in {
       devShells.default = pkgs.mkShell {
         name = "ocaml-dev-env";
-        packages = with pkgs.ocalmPackages; [
+        packages = with pkgs.ocamlPackages; [
           ocaml
           dune_3
           findlib
