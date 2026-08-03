@@ -24,6 +24,7 @@
           ocamlformat
           utop
           merlin
+          zarith
         ];
       };
     });
