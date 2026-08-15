@@ -1,4 +1,4 @@
 #include "main.h"
 
-void sayhi() { printf("Hello!"); }
-int main() { sayhi(); }
+void sayhi(void) { printf("Hello!"); }
+int main(void) { sayhi(); }
