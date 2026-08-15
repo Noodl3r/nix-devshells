@@ -1,3 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
-int main() { printf("I am a 50x Engineer!"); }
+void sayhi() { printf("Hello!"); }
+int main() { sayhi(); }
